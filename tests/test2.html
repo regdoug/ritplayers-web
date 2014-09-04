@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>Search</title>
+    <link rel=stylesheet href="/css/app.css">
+    <link rel=stylesheet href="/css/fonts/foundation-icons.css">
+    <style>
+.posts article {
+    padding:45px;
+    min-height: 40rem;
+    background: url("http://sites.regdoug.com/oldpoems/images/background.png") center no-repeat;
+    background-size: cover;
+}
+.posts article > div {
+    padding: 10px;
+    width: 450px;
+    background-color: AliceBlue;
+}
+.posts article:nth-child(odd) > div {
+    float:right;
+}
+.posts article:nth-child(even) > div {
+    float:left;
+}
+    </style>
+</head>
+<body>
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#"><span class="hide-for-medium-up">RIT Home</span><span class="ritabbr show-for-medium-up"><span class="ritlong show-for-large-up"></span></span></a></h1>
+            </li>
+            <li class="toggle-topbar"><a href="#"><span>Search</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="ritsearch">
+                    <form method="get" action="http://www.rit.edu/search/">
+                    <div class="row collapse">
+                        <div class="large-10 small-11 columns">
+                            <input type="text" name="q" placeholder="Search RIT">
+                        </div>
+                        <div class="large-2 small-1 columns">
+                            <button class="search-button expand" title="Search RIT">&nbsp;<i class="fi-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                    </form>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <section class=posts>
+        <article style="background-image:url('http://upload.wikimedia.org/wikipedia/commons/3/32/Blank_US_Map.svg')">
+            <div>
+                <h1>This is an article about nothing</h1>
+                <p>I want to put some text here so that I can see what will happen, but I don't really care what it says.</p>
+                <p>Posted on <time datetime="2014-07-23 16:00 UTC">July 24th, 2014</time></p>
+                <p>Image by User:Theshibboleth [<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA-3.0</a>], <a href="http://commons.wikimedia.org/wiki/File%3ABlank_US_Map.svg">via Wikimedia Commons</a></p>
+            </div>
+        </article>
+        <article style="background-image:url('http://placekitten.com/g/1200/900')">
+            <div>
+                <h1>This is the second article</h1>
+                <p>I need at least two articles so that I can see whether my :even and :odd pseudo-element selectors are working.</p>
+                <p>Posted on <time datetime="2014-07-23 16:00 UTC">July 24th, 2014</time></p>
+            </div>
+        </article>
+    </section>
+    <aside>This page was completed at great expense at the last minute.  That is all.</aside>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+</body>

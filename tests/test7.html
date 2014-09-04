@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logo</title>
+    <link rel=stylesheet href="/css/app.css">
+    <link rel=stylesheet href="/css/fonts/foundation-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+#post-3aa28d2 .coverimg {
+    background-image:url('http://upload.wikimedia.org/wikipedia/commons/3/32/Blank_US_Map.svg');
+}
+#post-b4b5ab3 .coverimg {
+    background-image:url('http://placekitten.com/g/1200/900');
+}
+@media only screen and (min-width:40.063em) {
+    #post-3aa28d2 {
+        background-image:url('http://upload.wikimedia.org/wikipedia/commons/3/32/Blank_US_Map.svg');
+    }
+    #post-b4b5ab3 {
+        background-image:url('http://placekitten.com/g/1200/900');
+    }
+}
+    </style>
+</head>
+<body>
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1><a title="RIT Home" href="https://www.rit.edu/"><span class="ritabbr"><span class="ritlong show-for-large-up"></span></span></a></h1>
+            </li>
+            <li class="toggle-topbar"><a href="#"><span>Search</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="show-for-medium-up ritsearch">
+                    <form method="get" action="http://www.rit.edu/search/">
+                    <div class="row collapse">
+                        <div class="large-10 small-9 columns">
+                            <input type="text" name="q" placeholder="Search RIT">
+                        </div>
+                        <div class="large-2 small-3 columns">
+                            <button class="search-button expand" title="Search RIT">&nbsp;<i class="fi-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                    </form>
+                </li>
+                <li>
+                    <a class="right-off-canvas-toggle menu-icon">Menu<span></span></a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <div class="scrollblock">
+        <div id="logo">
+        <a href="#">
+            <div class="wrap-inner">
+            <img height=96 src="/img/crappy-logo-trans.png">
+            <h2>RIT&nbsp;Players</h2>
+            </div>
+        </a>
+        <h3>Meetings Every Tuesday at 8pm</h3>
+        </div>
+    </div>
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <aside class="right-off-canvas-menu">
+        <ul class="off-canvas-list">
+            <li><label>RIT</label></li>
+            <li><a href="https://www.rit.edu/">RIT Home</a></li>
+            <li><a href="https://www.rit.edu/directories.html">RIT Directories</a></li>
+            <li class="hide-for-medium-up">
+                <form method="get" action="http://www.rit.edu/search/" class="ritsearch">
+                <div class="row collapse">
+                    <div class="large-10 small-9 columns">
+                        <input type="text" name="q" placeholder="Search RIT">
+                    </div>
+                    <div class="large-2 small-3 columns">
+                        <button class="search-button expand" title="Search RIT">&nbsp;<i class="fi-magnifying-glass"></i></button>
+                    </div>
+                </div>
+                </form>
+            </li>
+            <li><label>RIT Players</label></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About RIT Players</a></li>
+            <li><a href="#">Old Posts</a></li>
+        </ul>
+    </aside>
+
+    <section class="main-section">
+      <div class="posts">
+        <article id="post-3aa28d2">
+            <div class="small-12 columns">
+                <h1>This is an article about nothing</h1>
+                <div class="coverimg hide-for-medium-up"></div>
+                <p>I want to put some text here so that I can see what will happen, but I don't really care what it says.</p>
+                <p>Posted on <time datetime="2014-07-23 16:00 UTC">July 24th, 2014</time></p>
+                <p>Image by User:Theshibboleth [<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA-3.0</a>], <a href="http://commons.wikimedia.org/wiki/File%3ABlank_US_Map.svg">via Wikimedia Commons</a></p>
+            </div>
+        </article>
+        <article id="post-b4b5ab3">
+            <div class="small-12 columns">
+                <h1>This is the second article</h1>
+                <div class="coverimg hide-for-medium-up"></div>
+                <p>I need at least two articles so that I can see whether my :even and :odd pseudo-element selectors are working.</p>
+                <p>Posted on <time datetime="2014-07-23 16:00 UTC">July 24th, 2014</time></p>
+            </div>
+        </article>
+      </div>
+      <aside>This page was completed at great expense at the last minute.  That is all.</aside>
+    </section>
+
+    <a class="exit-off-canvas" href="#"></a>
+
+  </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+<script src="js/jquery.scrollorama.js"></script>
+<script src="js/app.js"></script>
+</body>
